@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+   worker:
+    build: .
+    environment:
+      BOT_TOKEN: 6199312699:AAGcgKoH-bLogCrF6PIuwszsfrY4YqqkPQQ
+      API_ID: 25094651
+      API_HASH: 8b446e569ff634428df4ad723d01b7fd
+      CHANNELS: -1001979646311
+      ADMINS: 6131675384
+      LOG_CHANNEL: -1001979646311
+      DATABASE_NAME: movie
+      DATABASE_URI: mongodb+srv://movie:movie@movie.0k7tcqc.mongodb.net/?retryWrites=true&w=majority
+      AUTH_CHANNEL: -1001979646311
+      AUTH_USERS: None
+      FILE_CHANNEL: -1001979646311
+      DELETE_CHANNELS: -1001979646311
+      SUPPORT_CHAT: -1001979646311
+
+      
